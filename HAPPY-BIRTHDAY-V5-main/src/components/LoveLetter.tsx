@@ -5,12 +5,12 @@ import { motion } from 'framer-motion';
 
 export default function LoveLetter() {
   const letterParagraphs = [
-    "Kanggo Nazwa anu pangasihna sareng ku abdi dipikaasih,",
-    "Di hari istimewa ini, aku ingin menulis sesuatu yang datang dari lubuk hati terdalam...",
+    "Kanggo Nazwa anu dipikaasih ,",
+    "Di hari istimewa ini, aku ingin menulis sesuatu yang gak apa apa ngucapinya awalan yah biar surprise soalnya hihi :)",
     "Setiap hari mengenalmu adalah hadiah terindah yang pernah kuterima. Senyummu mampu mengubah hari terburuk menjadi yang terbaik. Tawamu adalah melodi yang selalu ingin kudengar berulang kali.",
     "Anjeun teh bukti yen Gusti Nu Maha Suci maparin kanyaah anu kacida ageungna ka abdi. Karena dari sekian banyak orang di dunia ini, Dia mengizinkanku untuk mengenalmu, mendekatimu, dan menjadi bagian dari ceritamu.",
     "Di usia ke-21 ini, mugi Gusti maparin kaséhatan, kabagjaan, sareng sagala kabagéan kanggo anjeun. Semoga setiap langkahmu dipenuhi berkah, setiap mimpimu menjadi kenyataan, dan setiap hari yang kamu jalani dipenuhi kebahagiaan yang tak terhingga.",
-    "Hatur nuhun tos janten anjeun anu ayeuna — yang selalu membuatku ingin menjadi versi terbaik dari diriku.",
+    "Hatur nuhun tos janten anjeun anu ayeuna — yang selalu membuatku ingin menjadi versi terbaik dari diriku",
     "Disarengan ku sadaya rasa cinta anu abdi kagungan,",
     "Pikeun Nazwa Aulia Ingdana Zulfa ❤️"
   ];
@@ -33,7 +33,7 @@ export default function LoveLetter() {
           Surat Cinta Untukmu
         </h2>
         <p className="text-xs sm:text-sm text-rose-300/60 uppercase tracking-widest mt-2">
-          Goresan rasa yang paling tulus
+          Goresan rasa yang paling tulus wkwk
         </p>
       </motion.div>
 
@@ -86,7 +86,7 @@ export default function LoveLetter() {
           className="mt-12 pt-8 border-t border-white/10 text-center"
         >
           <p className="font-script text-rose-300 text-xl sm:text-2xl max-w-md mx-auto leading-relaxed">
-            &ldquo;Cinta sajati lain ngeunaan kasampurnaan, tapi ngeunaan narima kateusampurnaan kalayan sagemblengna hate.&rdquo;
+            &ldquo;Cinta sajati lain ngeunaan kasampurnaan, tapi ngeunaan narima kateusampurnaan kalayan sagemblengna hate hehe.&rdquo;
           </p>
         </motion.div>
       </motion.div>
