@@ -24,8 +24,8 @@ export default function AudioProvider({ children }: { children: ReactNode }) {
   const [hasInteracted, setHasInteracted] = useState(false);
 
   useEffect(() => {
-    const audio = new Audio('/music/setlove.mp3');
-    audio.loop = true;
+    const audio = new Audio('/music/bg.mp3');
+    audio.loop = false; // first song does not loop
     audio.volume = 0.3;
     audioRef.current = audio;
 
@@ -38,10 +38,19 @@ export default function AudioProvider({ children }: { children: ReactNode }) {
       }
     };
 
+    const handleSongEnded = () => {
+      // When first song ends, switch to second song and loop it
+      audio.src = '/music/india.mp3';
+      audio.loop = true;
+      audio.play().catch(() => {});
+    };
+
+    audio.addEventListener('ended', handleSongEnded);
     window.addEventListener('click', handleInteraction, { once: true });
 
     return () => {
       window.removeEventListener('click', handleInteraction);
+      audio.removeEventListener('ended', handleSongEnded);
       audio.pause();
       audio.src = '';
     };
