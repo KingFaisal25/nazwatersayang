@@ -108,7 +108,7 @@ export default function HeroSection({ onNext }: { onNext: () => void }) {
           ref={dateRef}
           className="mt-8 text-xl sm:text-2xl font-script text-amber-200 select-none flex items-center gap-2"
         >
-          <span>✦</span> 15 Juni 2026 <span>✦</span>
+          <span>✦</span> 14 Juni 2026 <span>✦</span>
         </div>
       </div>
 

@@ -15,7 +15,7 @@ export default function MemoryGallery() {
   const photos: Photo[] = [
     { src: '/images/1.jpeg', caption: 'Senyum manismu yang menenangkan 💖', rotate: '-4deg' },
     { src: '/images/2.jpeg', caption: 'Momen tawa bersamamu ✨', rotate: '3deg' },
-    { src: '/images/3.jpeg', caption: 'Saat dunia terasa milik berdua 💕', rotate: '-2deg' },
+    { src: '/images/3.jpeg', caption: 'Saat aku memilikimu 💕', rotate: '-2deg' },
     { src: '/images/4.jpeg', caption: 'Kamu yang selalu cantik setiap saat 🌸', rotate: '5deg' },
     { src: '/images/5.jpeg', caption: 'Hari indah bersamamu 💫', rotate: '-5deg' },
   ];

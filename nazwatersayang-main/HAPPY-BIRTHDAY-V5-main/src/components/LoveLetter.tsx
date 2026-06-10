@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function LoveLetter() {
   const letterParagraphs = [
-    "Kanggo Nazwa anu dipikaasih ,",
+    "Kanggo Nazwa anu dipikacinta ,",
     "Di hari istimewa ini, aku ingin menulis sesuatu yang gak apa apa ngucapinya awalan yah biar surprise soalnya hihi :)",
     "Setiap hari mengenalmu adalah hadiah terindah yang pernah kuterima. Senyummu mampu mengubah hari terburuk menjadi yang terbaik. Tawamu adalah melodi yang selalu ingin kudengar berulang kali.",
     "Anjeun teh bukti yen Gusti Nu Maha Suci maparin kanyaah anu kacida ageungna ka abdi. Karena dari sekian banyak orang di dunia ini, Dia mengizinkanku untuk mengenalmu, mendekatimu, dan menjadi bagian dari ceritamu.",
